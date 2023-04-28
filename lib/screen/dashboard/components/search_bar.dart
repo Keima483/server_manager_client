@@ -4,6 +4,7 @@ import 'package:server_manager_client/controller/server_controller.dart';
 import 'package:server_manager_client/screen/dashboard/components/add_server_popup.dart';
 import 'package:server_manager_client/utils/ui_style.dart';
 
+// Widget for Search Bar
 class SearchBar extends StatelessWidget {
   SearchBar({
     Key? key,

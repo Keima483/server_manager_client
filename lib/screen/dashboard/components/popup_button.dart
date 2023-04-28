@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Widget for buttons used in the Pop ups
 class PopUpButton extends StatelessWidget {
   const PopUpButton({
     required this.label,

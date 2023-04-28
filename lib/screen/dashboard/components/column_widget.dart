@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:server_manager_client/utils/ui_style.dart';
 
+// Widget to descibe the column namees
 class ColumnWidget extends StatelessWidget {
   const ColumnWidget({
     Key? key,

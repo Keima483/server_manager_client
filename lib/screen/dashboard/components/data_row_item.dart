@@ -5,6 +5,7 @@ import 'package:server_manager_client/model/server.dart';
 import 'package:server_manager_client/screen/dashboard/components/edit_server_popup.dart';
 import 'package:server_manager_client/utils/ui_style.dart';
 
+// function to generate rows of data in the datatable
 DataRow dataRowGenerator(BuildContext context, Server server) {
   return DataRow(
     cells: [

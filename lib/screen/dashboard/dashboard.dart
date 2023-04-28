@@ -7,6 +7,7 @@ import 'package:server_manager_client/utils/ui_style.dart';
 
 import 'components/data_row_item.dart';
 
+// Dashboard Widget
 class DashboardScreen extends StatelessWidget {
   DashboardScreen({super.key});
   final serverController = Get.put(ServerController());
@@ -37,6 +38,7 @@ class DashboardScreen extends StatelessWidget {
             tileMode: TileMode.mirror,
           ),
         ),
+        // Main deisplay unit is in Obx so it gets updated on state change
         child: Obx(() {
           return !serverController.isServerON.value
               ? const Center(

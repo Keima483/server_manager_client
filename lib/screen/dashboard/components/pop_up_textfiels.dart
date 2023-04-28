@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Widget for the TextField in the popups
 class PopUpTextField extends StatelessWidget {
   const PopUpTextField({
     Key? key,

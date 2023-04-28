@@ -5,6 +5,7 @@ import 'package:server_manager_client/model/server.dart';
 import 'package:server_manager_client/screen/dashboard/components/pop_up_textfiels.dart';
 import 'package:server_manager_client/screen/dashboard/components/popup_button.dart';
 
+// Pop up to add server
 void addServerPopUp(BuildContext context) {
   var formKey = GlobalKey<FormState>();
   var nameController = TextEditingController();

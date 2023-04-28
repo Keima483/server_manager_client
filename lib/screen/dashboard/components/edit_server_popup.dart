@@ -5,6 +5,7 @@ import 'package:server_manager_client/model/server.dart';
 import 'package:server_manager_client/screen/dashboard/components/pop_up_textfiels.dart';
 import 'package:server_manager_client/screen/dashboard/components/popup_button.dart';
 
+// Popup caleed when you need to edit details of a server
 void editServerPopup(BuildContext context, Server server) {
   var formKey = GlobalKey<FormState>();
   var nameController = TextEditingController(text: server.name);

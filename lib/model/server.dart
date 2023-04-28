@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+// Server model class and some helpul functions related to server class
+
 Server serverFromJson(String str) => Server.fromJson(json.decode(str));
 
 String serverToJson(Server data) => json.encode(data.toJson());
